@@ -1,0 +1,45 @@
+body {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    background-image: url('../img/background-login.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo img {
+    height: auto;
+    margin: 15px auto;
+}
+
+.logoSB {
+    display: none;
+}
+
+.header-content {
+    background-color: white;
+    margin-left: 40%;
+    width: auto;
+    float: left;
+    position: relative;
+    border-radius: 4px;
+    color: #7e7975;
+}
+
+iframe.loginPortlet {
+    width: 273px;
+    overflow: hidden;
+    height: inherit;
+    border: none;
+    border-radius: 4px;
+}
+
+.bhd-login-btn,
+.bhd-login-btn-selected,
+.global-menu-open {
+    display: none;
+}
+
+#footer {
+    display: none;
+}
